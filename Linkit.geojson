@@ -1,0 +1,203 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.033434,
+     60.194542
+    ]
+   },
+   "properties": {
+    "name": "Taidesein\u00e4 Kattilagalleria",
+    "facility": "Hertsin kirjasto Linnanrakentajantie 2 00880 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=oFbGb4LMqRY",
+    "varaamo": "https://varaamo.hel.fi/resources/awrchk56rcua",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/8325",
+    "id": "8325"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.033619,
+     60.194183
+    ]
+   },
+   "properties": {
+    "name": "Sali",
+    "facility": "Hertsin nuorisotila Linnanrakentajantie 2 00880 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=9LpGZc1w5MG",
+    "varaamo": "https://varaamo.hel.fi/resources/awqkqfs4ppgq",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/61900",
+    "id": "61900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.033619,
+     60.194183
+    ]
+   },
+   "properties": {
+    "name": "Olotila + keitti\u00f6",
+    "facility": "Hertsin nuorisotila Linnanrakentajantie 2 00880 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=2BxcKnwLxAr",
+    "varaamo": "https://varaamo.hel.fi/resources/awqkqfs4ppgq",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/61900",
+    "id": "61900"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.990772,
+     60.249966
+    ]
+   },
+   "properties": {
+    "name": "N\u00e4yttelytila Sermit",
+    "facility": "Pukinm\u00e4en kirjasto Kentt\u00e4kuja 12 00720 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=g8kLx4v3aRE",
+    "varaamo": "https://varaamo.hel.fi/resources/awzbrfvouxhq",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/8232",
+    "id": "8232"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.990772,
+     60.249966
+    ]
+   },
+   "properties": {
+    "name": "N\u00e4yttelytila Vitriini",
+    "facility": "Pukinm\u00e4en kirjasto Kentt\u00e4kuja 12 00720 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=ybVip42RVDp",
+    "varaamo": "https://varaamo.hel.fi/resources/awzcsmbspmza",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/8232",
+    "id": "8232"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     25.121157,
+     60.23941
+    ]
+   },
+   "properties": {
+    "name": "Asukastila Mellari",
+    "facility": "Asukastila MELLARI Saarisel\u00e4nkuja 1 00970 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=ZYvRnqXCfCg",
+    "varaamo": "https://varaamo.hel.fi/resources/awpf36tpcaxq",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/61905",
+    "id": "61905"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.86033,
+     60.226818
+    ]
+   },
+   "properties": {
+    "name": "Monitoimitila",
+    "facility": "Pit\u00e4j\u00e4nm\u00e4en kirjasto Jousipolku 1 00370 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=WPpSLGkoyP2",
+    "varaamo": "https://varaamo.hel.fi/resources/awquiteggsaq",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/8292",
+    "id": "8292"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.860409,
+     60.22612
+    ]
+   },
+   "properties": {
+    "name": "Sali",
+    "facility": "Pit\u00e4j\u00e4nm\u00e4en nuorisotalo Jousipolku 1 C2",
+    "matterport": "https://my.matterport.com/show/?m=QNWNKHm6ujB",
+    "varaamo": "https://varaamo.hel.fi/resources/awkjfxqw4w5q",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/41241",
+    "id": "41241"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.94135,
+     60.249065
+    ]
+   },
+   "properties": {
+    "name": "Monitoimitila Sysi",
+    "facility": "Palohein\u00e4n kirjasto Palohein\u00e4ntie 22 00670 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=CHUApD3f3wh",
+    "varaamo": "https://varaamo.hel.fi/resources/awrdk4en3caq",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/8362",
+    "id": "8362"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.95356,
+     60.18372
+    ]
+   },
+   "properties": {
+    "name": "Ryhm\u00e4tila Dekkarikirjasto",
+    "facility": "Kallion kirjasto Viides linja 11 00530 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=W9AFZNiNL5B",
+    "varaamo": "https://varaamo.hel.fi/resources/au2tzfwtc34q",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/8215",
+    "id": "5215"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     24.946783,
+     60.166336
+    ]
+   },
+   "properties": {
+    "name": "Satuhuone",
+    "facility": "Rikhardinkadun kirjasto Rikhardinkatu 3 00130 Helsinki",
+    "matterport": "https://my.matterport.com/show/?m=EGwUXFddub8",
+    "varaamo": "https://varaamo.hel.fi/resources/awmyakuvv4ka",
+    "servicemap": "https://palvelukartta.hel.fi/fi/unit/8154",
+    "id": "8154"
+   }
+  }
+ ]
+}
