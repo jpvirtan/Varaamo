@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Varaamo kartalla</title>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
+
+    <!-- MLD -->
+    <link rel="stylesheet" href="mdl/material.min.css">
+    <script src="mdl/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Meta tag for MLD resizing on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- App specific styles -->
+    <link rel="stylesheet" href="varaamo2D_styles.css" />
+</head>
+<body>
+
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-hea>
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Varaamo &#38; Panoraamakuvat kartalla</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" onclick="document.getElementById('licenseCard').style.visibility='visible';">Lisenssi</a>
+                    <a class="mdl-navigation__link" onclick="document.getElementById('projectCard').style.visibility='visible';">Projektitiedot</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Varaamo &#38; Panoraamakuvat kartalla</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" onclick="document.getElementById('licenseCard').style.visibility='visible';">Lisenssi</a>
+                <a class="mdl-navigation__link" onclick="document.getElementById('projectCard').style.visibility='visible';">Projektitiedot</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content" id="content_area">
+            <!-- Your content goes here -->
+            <!-- Draw map -->
+            <div id="map"></div>
+
+            <div id="embedCard" class="mdl-card mdl-shadow--2dp">
+                <iframe class="card-contents" name="contentRenderer"></iframe>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="document.getElementById('embedCard').style.visibility='hidden';">
+                        Sulje
+                    </a>
+                </div>
+            </div>
+
+            <div id="licenseCard" class="mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Lisenssitiedot</h2>
+                </div>
+
+                <div class="mdl-card__supporting-text">
+                    <p><b>Helsingin opaskartta</b><br /> &#169; Kaupunkimittaus, Helsingin kaupunki</p>
+                    <p>
+                        <b>Leaflet</b><br /> Copyright &#169; 2010-2021, Vladimir Agafonkin<br />
+                        Copyright &#169; 2010-2011, CloudMade <br />
+                        <a target="_blank" href="https://github.com/Leaflet/Leaflet/blob/master/LICENSE">Avaa lisenssi</a>
+                    </p>
+                    <p>
+                        <b>Material Design Lite</b><br />
+                        Copyright 2015 Google Inc<br />
+                        Licensed under the Apache License, Version 2.0 <br />
+                        <a target="_blank" href="https://github.com/google/material-design-lite/blob/mdl-1.x/LICENSE">Avaa lisenssi</a>
+                    </p>
+                </div>
+
+
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="document.getElementById('licenseCard').style.visibility='hidden';">
+                        Sulje
+                    </a>
+                </div>
+            </div>
+
+            <div id="projectCard" class="mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Projektitiedot</h2>
+                </div>
+
+                <div class="mdl-card__supporting-text">
+                    <p>
+                        Toteutettu osana <b><a href="https://www.hel.fi/helsinki/fi/kaupunki-ja-hallinto/strategia-ja-talous/innovaatiorahasto/hankkeet/helsingin-alykas-tietomalli">Helsingin älykäs tietomalli 2025</a></b> -hanketta.
+                    </p>
+                    <p>
+                        Lähdekoodi saatavilla: <a href="https://github.com/jpvirtan/Varaamo">GitHub</a>
+                    </p>
+                </div>
+
+
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="document.getElementById('projectCard').style.visibility='hidden';">
+                        Sulje
+                    </a>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Add Aalto logo-->
+    <img src="Aalto_ENG_EN_21_BLACK_1.png" id="logo" alt="Aalto-yliopisto" />
+
+    <!-- Other scripts, note that this is run last to ensure everything above exists... -->
+    <script src="varaamo2D.js"></script>
+</body>
+</html>
