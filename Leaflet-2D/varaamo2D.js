@@ -14,7 +14,7 @@ var HKI_basemap = L.tileLayer.wms("https://kartta.hel.fi/ws/geoserver/avoindata/
     layers: 'avoindata:Opaskartta_PKS_harmaa',
     format: 'image/png',
     transparent: false,
-    attribution: "Helsingin opaskartta &#169; Kaupunkimittaus, Helsingin kaupunki"
+    attribution: "Opaskartta &#169; Kaupunkimittaus, Helsingin kaupunki"
 });
 HKI_basemap.addTo(mymap);
 
@@ -53,8 +53,8 @@ xhttp.onreadystatechange = function() {
 			GeoJSONData.features[i].properties.facility
 			+ "<br/><br/>" +
 			"<a target='contentRenderer' onclick='document.getElementById(&#34;embedCard&#34;).style.visibility=&#34;visible&#34;;' href='" + GeoJSONData.features[i].properties.matterport  + "'>Avaa panoraamakuva</a><br/>" +
-			"<a target='contentRenderer' onclick='document.getElementById(&#34;embedCard&#34;).style.visibility=&#34;visible&#34;;' href='" + GeoJSONData.features[i].properties.varaamo  + "'>Varaa tila</a><br/>" +
-			"<a target='contentRenderer' onclick='document.getElementById(&#34;embedCard&#34;).style.visibility=&#34;visible&#34;;' href='" + GeoJSONData.features[i].properties.servicemap  + "'>Reitti & saavutettavuustiedot</a>"
+			"<a target='_blank' href='" + GeoJSONData.features[i].properties.varaamo  + "'>Varaa tila</a><br/>" +
+			"<a target='_blank' href='" + GeoJSONData.features[i].properties.servicemap  + "'>Reitti & saavutettavuustiedot</a>"
 			);
 			i++;
 	   }
